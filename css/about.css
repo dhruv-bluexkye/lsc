@@ -1,0 +1,781 @@
+/* About Us Page Styles */
+
+/* Disabled Nav Link */
+.nav-link.disabled {
+  color: #999999 !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  opacity: 0.6 !important;
+}
+
+.nav-link.disabled:hover {
+  color: #999999 !important;
+}
+
+/* Hero Section */
+.about-hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/aboutus-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.about-hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.about-hero-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 3;
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.about-hero-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about-hero-logo img {
+  width: 300px;
+  height: auto;
+  filter: brightness(1.2);
+}
+
+.about-hero-text {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  max-width: 1000px;
+}
+
+.about-hero-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .about-hero-logo img {
+    width: 400px;
+  }
+  
+  .about-hero-text {
+    bottom: 50px;
+    left: 50px;
+    max-width: 1000px;
+  }
+  
+  .about-hero-text p {
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-hero-logo img {
+    width: 300px;
+  }
+  
+  .about-hero-text {
+    bottom: 40px;
+    left: 30px;
+    max-width: 500px;
+  }
+  
+  .about-hero-text p {
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-hero-logo img {
+    width: 250px;
+  }
+  
+  .about-hero-text {
+    bottom: 30px;
+    left: 20px;
+    max-width: 90%;
+  }
+  
+  .about-hero-text p {
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+  }
+}
+
+/* Our Team Section */
+.about-team {
+  position: relative;
+  width: 100vw;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-team-content {
+  padding: 80px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-team-content h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.about-team-content > p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 60px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.about-team-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  transition: all 0.3s ease;
+  gap: 20px;
+}
+
+.about-team-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.about-team-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.about-team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-team-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about-team-info h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000000;
+  margin: 0 0 5px 0;
+}
+
+.about-team-info p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #666666;
+  margin: 0 0 10px 0;
+}
+
+.about-linkedin {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.about-linkedin:hover {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+/* Responsive Design for Team Section */
+@media screen and (max-width: 1024px) {
+  .about-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-team-content {
+    padding: 60px 30px;
+  }
+  
+  .about-team-content h2 {
+    font-size: 36px;
+  }
+  
+  .about-team-content > p {
+  font-size: 16px;
+}
+
+  .about-team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .about-team-card {
+    max-width: 350px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-team-content {
+    padding: 40px 20px;
+  }
+  
+  .about-team-content h2 {
+    font-size: 28px;
+  }
+  
+  .about-team-content > p {
+    font-size: 15px;
+  }
+}
+
+/* Our Mission Section */
+.about-mission {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-mission-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/our-mission.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.about-mission-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+.about-mission-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+  z-index: 3;
+}
+
+.about-mission-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.about-mission-text {
+  max-width: 700px;
+  padding: 60px;
+}
+
+.about-mission-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0 0 30px 0;
+}
+
+.about-mission-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.about-mission-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design for Mission Section */
+@media screen and (max-width: 1200px) {
+  .about-mission-text {
+    max-width: 500px;
+    padding: 50px;
+  }
+  
+  .about-mission-text h2 {
+    font-size: 40px;
+  }
+  
+  .about-mission-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-mission-content {
+    padding: 0 30px;
+  }
+  
+  .about-mission-text {
+  max-width: 100%;
+    padding: 40px;
+  }
+  
+  .about-mission-text h2 {
+    font-size: 32px;
+  }
+  
+  .about-mission-text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-mission-content {
+    padding: 0 20px;
+  }
+  
+  .about-mission-text {
+    padding: 30px;
+  }
+  
+  .about-mission-text h2 {
+    font-size: 28px;
+  }
+  
+  .about-mission-text p {
+  font-size: 14px;
+  }
+}
+
+/* Our Vision Section */
+.about-vision {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-vision-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/our-vision.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.about-vision-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+.about-vision-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+  z-index: 3;
+}
+
+.about-vision-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.about-vision-text {
+  max-width: 700px;
+  padding: 60px;
+}
+
+.about-vision-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0 0 30px 0;
+}
+
+.about-vision-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.about-vision-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design for Vision Section */
+@media screen and (max-width: 1200px) {
+  .about-vision-text {
+    max-width: 500px;
+    padding: 50px;
+  }
+  
+  .about-vision-text h2 {
+    font-size: 40px;
+  }
+  
+  .about-vision-text p {
+  font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-vision-content {
+    padding: 0 30px;
+  }
+  
+  .about-vision-text {
+    max-width: 100%;
+    padding: 40px;
+  }
+  
+  .about-vision-text h2 {
+    font-size: 32px;
+  }
+  
+  .about-vision-text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-vision-content {
+    padding: 0 20px;
+  }
+  
+  .about-vision-text {
+    padding: 30px;
+  }
+  
+  .about-vision-text h2 {
+    font-size: 28px;
+  }
+  
+  .about-vision-text p {
+    font-size: 14px;
+  }
+}
+
+/* Footer Section */
+.about-footer {
+  position: relative;
+  width: 100vw;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 60px;
+}
+
+.about-newsletter {
+  flex: 1;
+  max-width: 400px;
+}
+
+.about-newsletter h3 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 20px 0;
+}
+
+.about-newsletter p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+.about-newsletter-form {
+  display: flex;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.about-email-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.about-email-input::placeholder {
+  color: #000000;
+}
+
+.about-signup-btn {
+  padding: 12px 24px;
+  background: #000000;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.about-signup-btn:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.about-disclaimer {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+}
+
+.about-explore {
+  flex: 1;
+  max-width: 200px;
+}
+
+.about-explore h3 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 20px 0;
+}
+
+.about-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-footer-links li {
+  margin-bottom: 8px;
+}
+
+.about-footer-links a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-footer-links a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design for Footer */
+@media screen and (max-width: 767px) {
+  .about-footer-content {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+  
+  .about-newsletter,
+  .about-explore {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-footer-content {
+    padding: 30px 20px;
+  }
+  
+  .about-newsletter-form {
+    flex-direction: column;
+  }
+  
+  .about-signup-btn {
+    margin-top: 10px;
+  }
+}

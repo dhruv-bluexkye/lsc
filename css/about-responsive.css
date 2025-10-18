@@ -1,0 +1,296 @@
+@media (max-width: 1660px) {
+}
+
+@media (max-width: 1440px) {
+  .who-we-are-box > img {
+    width: 450px;
+  }
+
+  .who-we-are-box-text {
+    padding: 0 30px;
+  }
+
+  .celebrity-spotlightsss-top p {
+    padding-left: 110px;
+  }
+
+  .with-kivc-2-text,
+  .with-kivc-3-text {
+    padding: 50px;
+  }
+
+  .xtz-celebrity-right p {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .with-kivc-2-text,
+  .with-kivc-3-text {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-banner-text {
+    max-width: 80%;
+  }
+
+  .who-we-are-box {
+    flex-direction: column;
+  }
+
+  .who-we-are-box-text {
+    max-width: 100%;
+    padding: 50px;
+  }
+
+  .who-we-are-box > img {
+    width: 100%;
+  }
+  .team-contribution-full {
+    flex-direction: column;
+  }
+
+  .with-kivc-2-image,
+  .with-kivc-3-image {
+    width: 100%;
+  }
+
+  .with-kivc-2-text,
+  .with-kivc-3-text {
+    width: 100%;
+  }
+
+  .with-kivc-3-text {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  .celebrity-spotlightsss-top p {
+    padding-left: 40px;
+  }
+
+  .xtz-celebrity-left label {
+    font-size: 230px;
+  }
+
+  .xtz-celebrity-left:hover label:after {
+    font-size: 230px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-banner-text {
+    max-width: 100%;
+    padding-right: 15px;
+  }
+
+  .about-team-all label {
+    font-size: 36px;
+  }
+
+  .about-team-all {
+    padding: 60px 20px 0;
+  }
+
+  .team-members {
+    padding: 50px 20px;
+  }
+
+  .celebrity-spotlightsss-top {
+    flex-direction: column;
+  }
+
+  .celebrity-spotlightsss-top p {
+    padding-left: 0;
+  }
+
+  .spotlight-slider .owl-nav {
+    right: 79px;
+    top: 120px;
+  }
+
+  .with-kivc-2-text h2,
+  .with-kivc-3-text h2 {
+    width: fit-content;
+  }
+  .xtz-celebrity-left {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .xtz-celebrity-left h2 {
+    font-size: 56px;
+  }
+  .xtz-celebrity-left label {
+    font-size: 140px;
+  }
+
+  .xtz-celebrity-left:hover label:after {
+    font-size: 140px;
+  }
+  .celeb-carousel.owl-carousel {
+    margin-top: 5px;
+  }
+  .xtz-celebrity-left h2 {
+    bottom: 0;
+  }
+
+  .xtz-celebrity-left {
+    max-width: 100%;
+  }
+
+  .xtz-celebrity-left:hover h2 {
+    bottom: 0;
+  }
+
+  .xtz-celebrity-right p {
+    max-width: 100%;
+    margin: 0 0 15px;
+  }
+  .xtz-celebrity {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .spotlight-slider .owl-nav {
+    right: 147px;
+  }
+  .xtz-celebrity {
+    margin: 0;
+  }
+  .xtz-celebrity-right p {
+    max-width: 80%;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  .xtz-celebrity-left h2,
+  .xtz-celebrity-left:hover h2 {
+    bottom: 66px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-banner-ab {
+    min-height: inherit;
+    max-width: 140px;
+    padding-top: 150px;
+    display: none;
+  }
+  .item.celeb-item img {
+    border-radius: 3px;
+  }
+  .about-banner {
+    background: url(../assets/images/aboutss-image-mobile.webp) no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    /* background-position: left -165px center; */
+  }
+
+  .about-banner-text p {
+    font-size: 17px;
+  }
+
+  .about-banner-text {
+    bottom: 30px;
+  }
+
+  .about-team-all label {
+    font-size: 24px;
+  }
+
+  .about-team-all {
+    padding: 50px 0 0;
+  }
+
+  .who-we-are-box-text {
+    padding: 20px;
+  }
+
+  .team-members {
+    padding: 30px 0 50px;
+  }
+
+  .team-members-box {
+    margin: 10px 0;
+  }
+
+  .celebrity-spotlightsss-top h2 {
+    font-size: 24px;
+  }
+
+  .celebrity-spotlightsss-top {
+    padding: 0 20px;
+  }
+
+  .celebrity-spotlightsss {
+    padding: 50px 0 100px;
+  }
+
+  .celebrity-spotlightsss-slider {
+    padding: 0 0 0 20px;
+  }
+
+  .spotlight-bx h3 {
+    font-size: 15px;
+    min-width: 230px;
+  }
+
+  .with-kivc-2-text h2,
+  .with-kivc-3-text h2 {
+    font-size: 20px;
+  }
+
+  .with-kivc-2-text,
+  .with-kivc-3-text {
+    padding: 20px;
+  }
+  .spotlight-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+
+  .spotlight-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+
+  .spotlight-slider .owl-nav {
+    top: inherit;
+    bottom: -40px;
+  }
+  .spotlight-slider.owl-drag .owl-item:nth-child(even) .item .spotlight-bx {
+    margin-top: 0;
+  }
+
+  .xtz-celebrity-right p {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    /* margin-top: -40px; */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .xtz-celebrity {
+    padding: 0;
+  }
+  .xtz-celebrity-left label,
+  .xtz-celebrity-left label:after {
+    font-size: 140px;
+  }
+
+  .xtz-celebrity-left:hover label:after {
+    font-size: 140px;
+  }
+
+  .xtz-celebrity-left h2,
+  .xtz-celebrity-left:hover h2 {
+    font-size: 46px;
+    margin-top: 30px;
+  }
+  .xtz-celebrity-left {
+    text-align: center;
+  }
+}

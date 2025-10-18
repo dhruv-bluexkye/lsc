@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+  .section {
+    flex-direction: column;
+  }
+  .brand-left {
+    padding: 0;
+    text-align: center;
+    padding-top: 140px;
+  }
+  .brand-left p {
+    font-size: 16px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .brand-left img {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 575px) {
+  div#sec6 .brand-right img {
+    right: 0;
+  }
+  div#sec8 .brand-right img {
+    max-width: 570px;
+    position: relative;
+    left: -46px;
+    bottom: 20px;
+  }
+  div#sec7 .brand-right img {
+    max-width: 480px;
+    position: relative;
+    left: -30px;
+    bottom: 20px;
+  }
+  div#sec10 .brand-right img {
+    max-width: 570px;
+    position: relative;
+    left: -43px;
+    bottom: 20px;
+  }
+}

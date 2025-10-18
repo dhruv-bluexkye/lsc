@@ -1,0 +1,26 @@
+@media(max-width:1440px){
+.gallery-inner-banner{max-width: 70%;}
+
+
+}
+
+
+@media(max-width:575px){
+.gallery-inn {
+    padding: 0 0 20px;
+}
+
+.gallery-inner-banner {max-width: 90%;}
+
+.gallery-inner-banner h1 {
+    font-size: 24px;
+}
+
+.gallery-inner-banner p {
+    font-size: 15px;
+}
+
+
+
+  
+}

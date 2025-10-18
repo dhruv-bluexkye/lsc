@@ -1,0 +1,132 @@
+
+.brand-inner-page {
+    background: #fff;
+}
+
+.brand-keystates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-keystate label {
+    color: #000;
+    position: relative;
+    padding-left: 35px;
+    font-size: 14px;
+    font-family: 'Sherika-Bold';
+}
+
+.left-keystate label:after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #0619df;
+    left: 0;
+    content: "";
+    top: 1px;
+}
+
+.left-keystate h2 {
+    font-size: 48px;
+    color: #000;
+    font-family: 'Sherika-Bold';
+}
+
+.left-keystate {
+    max-width: 50%;
+    padding: 25px 0 0;
+}
+
+.right-keystate {
+    max-width: 40%;
+    border: 1px solid rgb(0 0 0 / 20%);
+    margin-top: 0;
+    border-bottom: none;
+}
+
+section.brand-in-last {
+    background-color: #ffff;
+    padding: 0 50px;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+
+.numbers-brand {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    padding: 40px;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 33px;
+}
+
+.transactions-brand {
+    width: 50%;
+    padding: 17px;
+}
+
+.transactions-brand span {
+    font-size: 18px;
+    font-family: 'Sherika-Bold';
+    color: rgb(255 255 255 / 50%);
+    display: block;
+}
+
+.transactions-brand h3 {
+    font-family: Mammoth;
+    color: #fff;
+    font-size: 32px;
+}
+
+.right-keystate-bx {
+    padding: 40px;
+}
+
+.right-keystate-bx a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.right-keystate-bx a img {
+    margin-right: 5px;
+}
+
+.right-keystate-bx h4 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+}
+
+.right-keystate-bx p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a.btn-websitee {
+    padding: 12px 32px;
+    background-color: #000;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.brand-in-banner-inner {
+    border-bottom: 5px solid #0618d8;
+    position: relative;
+}
+
+.brand-image-gif {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.brand-image-gif img {
+    max-width: 220px;
+}

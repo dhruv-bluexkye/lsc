@@ -1,0 +1,86 @@
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background: rgb(0, 0, 0);
+  background: #000;
+}
+
+.brand-all {
+  display: flex;
+  align-items: center;
+}
+
+.brand-left {
+  padding-left: 100px;
+}
+div#sec6 .brand-right img {
+  position: relative;
+  right: -59px;
+}
+.brand-left h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  color: #000;
+}
+
+.brand-left p {
+  font-size: 16px;
+  color: rgb(255 255 255 / 80%);
+  margin-top: -15px;
+  font-weight: 300;
+  margin: 5px 0 35px;
+  max-width: 80%;
+  margin-top: 25px;
+}
+
+.brand-left img {
+  max-width: 180px;
+}
+
+.brand-left a {
+  background-color: transparent;
+  border-radius: 100px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  text-align: center;
+  width: 190px;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #fff;
+  font-family: Hanson-Bold;
+  text-transform: uppercase;
+}
+.brand-image-in a {
+  display: block;
+}
+.brand-left a span {
+  background-color: #003064;
+  border-radius: 100px;
+  padding: 10px 35px;
+  margin-right: 16px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #ffffff30;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  background: #fff;
+}
+#wblContainer #sec3 {
+  background-image: url(../assets/images/bran-lap-3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

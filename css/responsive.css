@@ -1,0 +1,2257 @@
+@media (max-width: 1680px) {
+  .we-are-league-right {
+    padding-right: 90px;
+  }
+
+  .sport-tech-right {
+    padding: 90px;
+  }
+
+  .sliding-text {
+    padding: 50px 0 12px;
+  }
+
+  .milestones-left {
+    width: 40%;
+  }
+  .unleasing-banner h1 {
+    max-width: 95%;
+  }
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 500px !important;
+  }
+  .our-brand-lr-right {
+    padding: 40px;
+  }
+  .our-asset-in-bx {
+    max-width: 90%;
+    height: 220px;
+  }
+
+  .our-assetss-slider-bx-1,
+  .our-assetss-slider-bx-1:before {
+    min-height: 650px;
+  }
+  .our-assetss-slider-bx-2,
+  .our-assetss-slider-bx-2:before {
+    min-height: 650px;
+  }
+
+  .our-assetss-slider-bx-7,
+  .our-assetss-slider-bx-7:before {
+    min-height: 650px;
+  }
+
+  .our-assetss-slider-bx-8,
+  .our-assetss-slider-bx-8:before {
+    min-height: 650px;
+  }
+
+  .our-assetss-left {
+    min-height: 650px;
+  }
+  .our-assetss-slider-bx-1:hover:before {
+    background-size: 105%;
+  }
+  .our-assetss-slider-bx-2:hover:before {
+    background-size: 105%;
+  }
+
+  .our-assetss-slider-bx-7:hover:before {
+    background-size: 105%;
+  }
+  .our-assetss-slider-bx-8:hover:before {
+    background-size: 105%;
+  }
+.sports-assets-links{top: 19%;}
+
+
+}
+
+@media (max-width: 1440px) {
+  .we-are-league-right {
+    padding: 50px;
+  }
+
+  .sport-tech-right {
+    padding: 50px;
+  }
+
+  .our-assetss-slider-bx-1:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-2:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-7:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-8:before {
+    background-position: bottom -135px center;
+  }
+
+  .our-assetss-slider-bx-4:before {
+  }
+  .our-assetss-slider-bx:hover:before {
+    filter: none;
+  }
+  .sliding-text {
+    padding: 30px 0 6px;
+  }
+
+  .milestones-left {
+    width: 46%;
+  }
+  .unleasing-banner h1 {
+    font-size: 28px;
+  }
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 400px !important;
+  }
+  .our-brand-lr-right {
+    padding: 40px;
+  }
+  .our-brand-lr-right h3 {
+    max-width: 100%;
+  }
+
+  .our-brand-lr-right img {
+    margin-top: 10px;
+  }
+  .brnad-inn-m-bx {
+    max-width: 100%;
+  }
+  .our-asset-in-bx a {
+    margin-top: 0;
+  }
+
+  .our-assetss-slider-bx:hover:after {
+    height: 290px;
+  }
+  .our-asset-in-bx {
+    max-width: 100%;
+    height: 240px;
+  }
+
+  .our-assetss-sliding .our-assetss-left h2 {
+    font-size: 28px;
+  }
+  .watch-launch {
+    max-width: 100%;
+  }
+
+  .our-assetss-slider-bx-1,
+  .our-assetss-slider-bx-1:before {
+    min-height: 600px;
+  }
+  .our-assetss-slider-bx-2,
+  .our-assetss-slider-bx-2:before {
+    min-height: 600px;
+  }
+  .our-assetss-slider-bx-7,
+  .our-assetss-slider-bx-7:before {
+    min-height: 600px;
+  }
+  .our-assetss-slider-bx-8,
+  .our-assetss-slider-bx-8:before {
+    min-height: 600px;
+  }
+  .our-assetss-left {
+    min-height: 600px;
+  }
+  .sports-assets-links img {
+    max-width: 97px;
+  }
+
+  .sports-assets-links {
+    margin-left: -20px;
+  }
+
+  .our-asset-in-bx {
+    height: 143px;
+  }
+
+  .our-assetss-slider-bx-3 .our-asset-in-bx,
+  .our-assetss-slider-bx-4 .our-asset-in-bx,
+  .our-assetss-slider-bx-5 .our-asset-in-bx,
+  .our-assetss-slider-bx-6 .our-asset-in-bx {
+    height: 220px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .we-offices-left h2 {
+    font-size: 48px;
+  }
+  .our-assetss-sliding .our-assetss-left h2 {
+    font-size: 24px;
+  }
+
+  .our-assetss-left h2 {
+    font-size: 32px;
+  }
+
+  .unleasing-banner h1 {
+    font-size: 28px;
+    padding-right: 20px;
+    max-width: 80%;
+  }
+
+  .our-assetss-slider-bx-1,
+  .our-assetss-slider-bx-1:before {
+    min-height: 550px;
+  }
+  .our-assetss-slider-bx-2,
+  .our-assetss-slider-bx-2:before {
+    min-height: 550px;
+  }
+
+  .our-assetss-slider-bx-7,
+  .our-assetss-slider-bx-7:before {
+    min-height: 550px;
+  }
+  .our-assetss-slider-bx-8,
+  .our-assetss-slider-bx-8:before {
+    min-height: 550px;
+  }
+  .our-assetss-left {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .unleasing-banner h1 {
+    max-width: 80%;
+  }
+
+  .our-asset-in-bx {
+    height: 170px;
+  }
+
+  .our-assetss-left {
+    width: 100%;
+    min-height: inherit;
+    padding: 65px 40px;
+  }
+  .our-assetss-right {
+    width: 100%;
+  }
+  .our-assetss-slider .owl-nav {
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    text-align: center;
+    top: -30px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 46px;
+  }
+
+  .we-offices-left {
+    max-width: 100%;
+  }
+
+  .we-offices-right {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .we-office-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 550px;
+  }
+  .our-assetss-left {
+    text-align: center;
+    align-items: center;
+  }
+
+  .our-assetss-left h2 {
+    max-width: 70%;
+  }
+
+  .our-assetss-left p {
+    max-width: 70%;
+  }
+
+  .our-assetss-left {
+    min-height: 100% !important;
+    padding: 100px 0;
+  }
+
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 300px !important;
+  }
+
+  .our-assetss-slider-bx-4:before {
+    background-size: 70%;
+  }
+
+  .our-assetss-slider-bx-5:before {
+    background-size: 70%;
+  }
+
+  .our-assetss-slider-bx-3:before {
+    background-size: 70%;
+  }
+  .our-assetss-slider-bx-6:before {
+    background-size: 70%;
+  }
+
+  .sports-assets-links img {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-section .hero-content h1 {
+    font-size: 54px;
+  }
+
+  .navbar,
+  .navbar-brand {
+    padding: 5px 0;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    background-color: transparent;
+    outline: none;
+  }
+
+  .button-right {
+    text-align: center;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .navbar-nav li.nav-item {
+    padding: 17px 15px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  .navbar-inner-bx {
+    margin-top: 20px;
+    flex-direction: column;
+    background: #000;
+    text-align: center;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: #000000;
+    border-radius: 100px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 5px 3px 5px 6.5px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    background: #000000;
+  }
+
+  .toggle {
+    display: block;
+    width: 25px;
+    height: 23px;
+  }
+
+  .toggle span {
+    position: relative;
+    display: block;
+  }
+
+  .toggle span:after,
+  .toggle span:before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .toggle span:before {
+    top: -6px;
+  }
+
+  .toggle span:after {
+    top: 6px;
+  }
+
+  .toggle span,
+  .toggle span:after,
+  .toggle span:before {
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.1s;
+    backface-visibility: hidden;
+    left: 3px;
+  }
+
+  .toggle.on span {
+    background-color: transparent;
+  }
+
+  .toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+    left: 0;
+    top: -7px;
+  }
+
+  .toggle.on span:after {
+    transform: rotate(-45deg) translate(3px, -4px);
+    left: 0;
+    top: 5px;
+  }
+
+  .toggle.on span:before,
+  .toggle.on span:after {
+    width: 19px;
+  }
+
+  .navbar-brand {
+    position: inherit;
+    left: 0;
+    top: 15px;
+  }
+
+  form.button-right {
+    position: inherit;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar-brand img {
+    margin-top: -12px;
+  }
+
+  .shrink {
+    height: 76px;
+  }
+
+  header,
+  header:before {
+    height: 76px;
+  }
+
+  .navbar-light .navbar-toggler {
+    background: #dbff26;
+    border-color: #dbff26;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background: #000;
+  }
+
+  .toggle span,
+  .toggle span:after,
+  .toggle span:before {
+    background: #000;
+  }
+
+  .unleasing-banner h1 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .we-are-league-left {
+    width: 100%;
+  }
+
+  .we-are-league-right {
+    width: 100%;
+  }
+
+  .sport-tech-right {
+    width: 100%;
+    min-height: inherit;
+  }
+  .sport-tech-left img {
+    min-height: inherit;
+  }
+
+  .sport-tech-left {
+    width: 100%;
+  }
+
+  .our-assetss-bottom h4 {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr {
+    width: 80%;
+  }
+
+  .our-assetss-sliderr p {
+    max-width: 80%;
+  }
+
+  .milestones-left {
+    width: 100%;
+  }
+
+  .milestones-right {
+    width: 100%;
+  }
+
+  .office-inner-2 {
+    margin-left: 0;
+  }
+
+  .offices-bx img {
+    max-width: 100%;
+  }
+  .unleasing-banner h1 {
+    font-size: 28px;
+    white-space: normal;
+    padding: 0;
+  }
+
+  .unlesing-slider-bx-inner {
+    left: 30px;
+    width: 90%;
+    bottom: 50px;
+  }
+
+  .our-brand-lr {
+    flex-direction: column;
+  }
+
+  .our-brand-lr-left {
+    width: 100%;
+  }
+
+  .our-brand-lr-right {
+    width: 100%;
+  }
+
+  .our-assets-tech .content-wrapper h2 {
+    font-size: 24px;
+  }
+  .our-assetss-slider-bx-3:before,
+  .our-assetss-slider-bx-3:hover:before {
+    background-size: 70%;
+    background-position: top 115px center;
+  }
+  .our-assetss-slider-bx-4:before,
+  .our-assetss-slider-bx-4:hover:before {
+    background-size: 70%;
+  }
+  .our-assetss-slider-bx-5:before,
+  .our-assetss-slider-bx-5:hover:before {
+    background-size: 55% !important;
+  }
+  .our-assetss-slider-bx-6:before,
+  .our-assetss-slider-bx-6:hover:before {
+    background-size: 70%;
+    background-position: top 115px center;
+  }
+  .footer-bottom li {
+    margin-left: 10px;
+  }
+
+  .footer-bottom li a img {
+    margin-right: 10px;
+  }
+
+  .footer-bottom a {
+    display: flex;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer-bottom li a {
+    display: flex;
+    align-items: center;
+  }
+  .nav-hamb__content {
+    transform: unset;
+    top: 20% !important;
+  }
+  .sports-assets-links img {
+    max-width: 54px;
+  }
+}
+
+@media (max-width: 767px) {
+  .unleasing-banner h1 {
+    font-size: 26px;
+  }
+
+  .any-que h2 {
+    font-size: 40px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 40px;
+  }
+  .unleasing-banner h1 {
+    font-size: 24px;
+  }
+
+  .our-assetss-left h2 {
+    max-width: 70%;
+    font-size: 24px;
+  }
+
+  .unlesing-slider-bx-inner a {
+    font-size: 13px;
+  }
+
+  .our-assetss-left a {
+    font-size: 13px;
+  }
+  .footer-bottom > a {
+    display: none;
+  }
+  .footer-bottom {
+    justify-content: center;
+  }
+  .sports-assets-links img {
+    max-width: 44px;
+  }
+}
+
+@media (max-width: 575px) {
+  .our-asset-in-bx {
+    height: 180px;
+  }
+  .navbar-toggle-a {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-hamb__list-item a {
+    font-size: 40px !important;
+  }
+
+  .hide-in-mob {
+    display: none;
+  }
+
+  .hide-in-pc {
+    display: block;
+  }
+
+  .our-assetss-left {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .yellow-border {
+    height: 40px;
+    width: 100%;
+    background-color: #dbff26;
+  }
+  .our-assetss-slider-bx:after {
+    display: none;
+  }
+  .our-assetss-slider-bx:hover:after {
+    height: 300px;
+  }
+
+  .our-assetss-slider {
+    position: relative;
+  }
+
+  .our-assetss-slider .owl-dots {
+    position: absolute;
+    bottom: 0;
+    z-index: 999999999;
+  }
+
+  .our-assetss-slider .owl-dot {
+    z-index: 9999999999;
+    width: 8px;
+    height: 8px;
+    color: #fff;
+    background: #fff;
+    border-radius: 20px;
+  }
+
+  .our-assetss-slider .owl-dot span {
+    z-index: 9999999999;
+    width: 8px;
+    height: 8px;
+    color: #fff;
+    background: #fff;
+    border-radius: 20px;
+  }
+
+  .metaboundless-btn {
+    margin: 0;
+  }
+
+  .unleasing-banner h1 {
+    font-size: 24px;
+    padding: 0;
+    bottom: 40px;
+  }
+
+  .any-que h2 {
+    font-size: 40px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 40px;
+  }
+
+  .unleasing-banner h1 span {
+    font-size: 14px;
+  }
+
+  .we-are-league-left {
+    display: none;
+    width: 100vw;
+    min-height: 100%;
+  }
+
+  .we-are-league-left img {
+    max-width: 100vw;
+    height: 100%;
+  }
+
+  .sport-tech-left {
+    display: none;
+    width: 100vw;
+  }
+  .sport-tech-left img {
+    max-width: 100vw;
+    height: 100%;
+  }
+
+  .we-are-league-right {
+    padding: 50px 20px;
+  }
+
+  .we-are-league-right h2 span {
+    font-size: 14px;
+  }
+
+  .we-are-league-right h2 {
+    font-size: 15px;
+  }
+
+  .we-are-league-right a {
+    margin-top: 10px;
+    font-size: 13px;
+    min-width: 150px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+
+  .sport-tech-right {
+    padding: 50px 20px;
+  }
+
+  .sport-tech-right h2 span {
+    font-size: 14px;
+  }
+
+  .sport-tech-right h2 {
+    font-size: 15px;
+  }
+
+  .sport-tech-left {
+    min-height: 100%;
+  }
+
+  .our-assetss-left h2 {
+    font-size: 36px;
+  }
+
+  .our-assetss-left p {
+    font-size: 15px;
+  }
+
+  .our-assetss-left {
+    padding: 50px 20px;
+    align-items: start !important;
+  }
+
+  .our-assetss-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+
+  .our-assetss-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+
+  .our-assetss-slider .owl-nav {
+    top: -40px;
+  }
+
+  .our-assetss-bottom h4 {
+    font-size: 24px;
+    min-height: inherit;
+    padding: 20px 10px;
+    font-family: JupiterMissionRegular;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-assetss-bottom {
+    position: relative;
+    background-color: #fff;
+  }
+
+  .abs-merchanice-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .abs-merchanice-btn a {
+    width: 200px;
+  }
+
+  .merchandice-image {
+    display: block;
+    width: 95%;
+    margin: 0px auto 30px;
+    background-color: #fff;
+  }
+
+  .merchandice-image img {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr p {
+    max-width: 100%;
+  }
+
+  .sliding-text li span {
+    font-size: 24px;
+  }
+
+  .sliding-text {
+    padding: 15px 0 5px;
+  }
+
+  .our-assetss-bottom h4 br {
+    display: contents;
+  }
+
+  .our-milestonee-top h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .our-milestonee-top {
+    flex-direction: column;
+  }
+
+  .our-milestonee-top a {
+    margin-top: 10px;
+    font-size: 13px;
+    min-width: 190px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+
+  .our-milestonee {
+    padding: 50px 20px;
+  }
+
+  .milestones-left h2 {
+    font-size: 70px;
+  }
+
+  .milestones-left h3 {
+    font-size: 20px;
+  }
+
+  .milestones-left p {
+    font-size: 15px;
+  }
+  .milestone-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+  .milestone-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss {
+    padding: 50px 20px;
+  }
+
+  .our-blogss-top h2 {
+    font-size: 18px;
+  }
+
+  .btn-blogss a {
+    margin-top: 30px;
+    font-size: 13px;
+    min-width: 210px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+  .our-blogss-slider-in h2 {
+    font-size: 17px;
+  }
+
+  .btn-blogss {
+    margin-top: -20px;
+  }
+
+  .any-que h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .any-que-btn a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .any-que-btn a.btn-que-bord {
+    font-size: 14px;
+  }
+
+  .any-que {
+    min-height: 280px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 28px;
+  }
+
+  .we-offices {
+    padding: 50px 0;
+  }
+
+  .office-inner.office-inner-1 {
+    flex-direction: column;
+  }
+
+  .office-inner-2 {
+    flex-direction: column;
+  }
+
+  .offices-bx h3 {
+    font-size: 16px;
+    min-width: 160px;
+  }
+
+  .we-offices-right {
+    margin-top: 20px;
+  }
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    max-width: 140px;
+  }
+
+  .footer-text h2 {
+    margin: 0 0 10px;
+  }
+
+  .footer-logo {
+    margin-bottom: 45px;
+  }
+
+  .footer-text li {
+    line-height: 25px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  .our-blogss-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss-slider .owl-nav {
+    right: 0;
+    top: -61px;
+  }
+
+  .our-blogss-top {
+    margin-bottom: 30px;
+  }
+  .milstone-slider-in {
+    padding-left: 5px;
+  }
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 540px;
+    background-size: 385px;
+  }
+
+  .our-assetss-slider-bx-3:before {
+    background-position: bottom 265px center;
+  }
+  .our-assetss-slider-bx-6:before {
+    background-position: bottom 265px center;
+  }
+
+  .our-assetss-slider-bx:hover:before {
+    background-size: 400px;
+    filter: none;
+  }
+
+  .our-assetss-slider .owl-nav {
+    display: none;
+  }
+  .our-assetss-slider-bx:hover .our-asset-in-bx h3 {
+    color: #fff;
+  }
+  .our-assetss-slider-bx:hover .our-asset-in-bx p {
+    color: #fff;
+  }
+
+  .milestone-slider .owl-nav {
+    bottom: 45px;
+  }
+
+  .unlesing-slider-bx-inner {
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .unlesing-slider-bx-inner a {
+    min-width: 150px;
+  }
+
+  .unlesing-slider-bx-5 {
+    background-size: 100%;
+    background: #000 url(../assets/images/bann-slide-5.webp) no-repeat;
+  }
+  .brnad-inn-m-bx h2 {
+    font-size: 14px;
+  }
+
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 100% !important;
+  }
+
+  .our-brand-lr-right h3 {
+    font-size: 15px;
+  }
+
+  .our-assets-banner .our-assetss-slider-bx {
+    width: 100%;
+  }
+  .our-assetss-left h2 {
+    font-size: 24px;
+    color: #fff;
+    max-width: 100%;
+  }
+
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 430px;
+  }
+
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    background-size: 100%;
+  }
+
+  .our-assetss-sliding .our-assetss-slider-bx,
+  .our-assetss-sliding .our-assetss-slider-bx:before {
+    min-height: 600px;
+  }
+  .our-assetss-slider-bx-3:before,
+  .our-assetss-slider-bx-3:hover:before {
+    background-size: 100%;
+  }
+  .our-assetss-slider-bx-6:before,
+  .our-assetss-slider-bx-6:hover:before {
+    background-size: 100%;
+  }
+}
+@media (max-width: 1680px) {
+  .we-are-league-right {
+    padding-right: 90px;
+  }
+
+  .sport-tech-right {
+    padding: 90px;
+  }
+
+  .sliding-text {
+    padding: 50px 0 12px;
+  }
+
+  .milestones-left {
+    width: 40%;
+  }
+  .unleasing-banner h1 {
+    max-width: 95%;
+  }
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 500px !important;
+  }
+  .our-brand-lr-right {
+    padding: 40px;
+  }
+  .our-asset-in-bx {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .we-are-league-right {
+    padding: 50px;
+  }
+
+  .sport-tech-right {
+    padding: 50px;
+  }
+
+  .our-assetss-slider-bx-1:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-2:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-7:before {
+    background-position: bottom -115px center;
+  }
+  .our-assetss-slider-bx-8:before {
+    background-position: bottom -112px center;
+  }
+
+  .our-assetss-slider-bx-4:before {
+  }
+  .our-assetss-slider-bx:hover:before {
+    filter: none;
+  }
+  .sliding-text {
+    padding: 30px 0 6px;
+  }
+
+  .milestones-left {
+    width: 46%;
+  }
+  .unleasing-banner h1 {
+    font-size: 32px;
+  }
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 400px !important;
+  }
+  .our-brand-lr-right {
+    padding: 40px;
+  }
+  .our-brand-lr-right h3 {
+    max-width: 100%;
+  }
+
+  .our-brand-lr-right img {
+    margin-top: 10px;
+  }
+  .brnad-inn-m-bx {
+    max-width: 100%;
+  }
+  .our-asset-in-bx a {
+    margin-top: 0;
+  }
+
+  .our-assetss-slider-bx:hover:after {
+    height: 250px;
+  }
+  .our-asset-in-bx {
+    max-width: 100%;
+  }
+
+  .our-assetss-sliding .our-assetss-left h2 {
+    font-size: 28px;
+  }
+  .watch-launch {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .we-offices-left h2 {
+    font-size: 48px;
+  }
+  .our-assetss-sliding .our-assetss-left h2 {
+    font-size: 24px;
+  }
+
+  .our-assetss-left h2 {
+    font-size: 32px;
+  }
+
+  .unleasing-banner h1 {
+    font-size: 26px;
+    padding-right: 20px;
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .unleasing-banner h1 {
+    max-width: 80%;
+  }
+
+  .our-assetss-left {
+    width: 100%;
+    min-height: inherit;
+    padding: 65px 40px;
+  }
+  .our-assetss-right {
+    width: 100%;
+  }
+  .our-assetss-slider .owl-nav {
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    text-align: center;
+    top: -30px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 46px;
+  }
+
+  .we-offices-left {
+    max-width: 100%;
+  }
+
+  .we-offices-right {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .we-office-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 550px;
+  }
+  .our-assetss-left {
+    text-align: center;
+    align-items: center;
+  }
+
+  .our-assetss-left h2 {
+    max-width: 70%;
+  }
+
+  .our-assetss-left p {
+    max-width: 70%;
+  }
+
+  .our-assetss-left {
+    min-height: 100% !important;
+    padding: 100px 0;
+  }
+
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 300px !important;
+  }
+
+  .our-assetss-slider-bx-4:before {
+    background-size: 70%;
+  }
+
+  .our-assetss-slider-bx-5:before {
+    background-size: 55%;
+  }
+
+  .our-assetss-slider-bx-3:before {
+    background-size: 70%;
+  }
+  .our-assetss-slider-bx-6:before {
+    background-size: 43%;
+  }
+}
+
+@media (max-width: 991px) {
+  .lsc-accordian {
+    display: none;
+  }
+  .lsc-accordian-mob {
+    display: flex;
+  }
+  .navbar-toggle-a {
+    display: block;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .menu-circle-ic {
+    right: 11px;
+    top: 12px;
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    -ms-transform: scale(0.8) !important;
+    -moz-transform: scale(0.8) !important;
+  }
+
+  .nav-hamb__list-item a {
+    font-size: 60px;
+    line-height: 30px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 54px;
+  }
+
+  .navbar,
+  .navbar-brand {
+    padding: 5px 0;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    background-color: transparent;
+    outline: none;
+  }
+
+  .button-right {
+    text-align: center;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .navbar-nav li.nav-item {
+    padding: 17px 15px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  .navbar-inner-bx {
+    margin-top: 20px;
+    flex-direction: column;
+    background: #000;
+    text-align: center;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: #000000;
+    border-radius: 100px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 5px 3px 5px 6.5px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    background: #000000;
+  }
+
+  .toggle {
+    display: block;
+    width: 25px;
+    height: 23px;
+  }
+
+  .toggle span {
+    position: relative;
+    display: block;
+  }
+
+  .toggle span:after,
+  .toggle span:before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .toggle span:before {
+    top: -6px;
+  }
+
+  .toggle span:after {
+    top: 6px;
+  }
+
+  .toggle span,
+  .toggle span:after,
+  .toggle span:before {
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.1s;
+    backface-visibility: hidden;
+    left: 3px;
+  }
+
+  .toggle.on span {
+    background-color: transparent;
+  }
+
+  .toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+    left: 0;
+    top: -7px;
+  }
+
+  .toggle.on span:after {
+    transform: rotate(-45deg) translate(3px, -4px);
+    left: 0;
+    top: 5px;
+  }
+
+  .toggle.on span:before,
+  .toggle.on span:after {
+    width: 19px;
+  }
+
+  .navbar-brand {
+    position: inherit;
+    left: 0;
+    top: 15px;
+  }
+
+  form.button-right {
+    position: inherit;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar-brand img {
+    margin-top: -12px;
+  }
+
+  .shrink {
+    height: 76px;
+  }
+
+  header,
+  header:before {
+    height: 76px;
+  }
+
+  .navbar-light .navbar-toggler {
+    background: #dbff26;
+    border-color: #dbff26;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background: #000;
+  }
+
+  .toggle span,
+  .toggle span:after,
+  .toggle span:before {
+    background: #000;
+  }
+
+  .unleasing-banner h1 {
+    max-width: 100%;
+    font-size: 24px;
+  }
+
+  .we-are-league-left {
+    width: 100%;
+  }
+
+  .we-are-league-right {
+    width: 100%;
+  }
+
+  .sport-tech-right {
+    width: 100%;
+    min-height: inherit;
+  }
+  .sport-tech-left img {
+    min-height: inherit;
+  }
+
+  .sport-tech-left {
+    width: 100%;
+  }
+
+  .our-assetss-bottom h4 {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr {
+    width: 80%;
+  }
+
+  .our-assetss-sliderr p {
+    max-width: 80%;
+  }
+
+  .milestones-left {
+    width: 100%;
+  }
+
+  .milestones-right {
+    width: 100%;
+  }
+
+  .office-inner-2 {
+    margin-left: 0;
+  }
+
+  .offices-bx img {
+    max-width: 100%;
+  }
+  .unleasing-banner h1 {
+    font-size: 24px;
+    white-space: normal;
+    padding: 0;
+  }
+
+  .unlesing-slider-bx-inner {
+    left: 30px;
+    width: 90%;
+    bottom: 50px;
+  }
+
+  .our-brand-lr {
+    flex-direction: column;
+  }
+
+  .our-brand-lr-left {
+    width: 100%;
+  }
+
+  .our-brand-lr-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .unleasing-banner h1 {
+    font-size: 22px;
+  }
+
+  .any-que h2 {
+    font-size: 40px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 40px;
+  }
+  .unleasing-banner h1 {
+    font-size: 22px;
+  }
+
+  .our-assetss-left h2 {
+    max-width: 70%;
+    font-size: 24px;
+  }
+
+  .unlesing-slider-bx-inner a {
+    font-size: 13px;
+  }
+
+  .our-assetss-left a {
+    font-size: 13px;
+    background: #061ae2;
+  }
+}
+
+@media (max-width: 575px) {
+  .hide-in-mob {
+    display: none;
+  }
+  .sports-assets {
+    padding: 0 10px;
+    margin: 50px 0;
+  }
+  .hide-in-pc {
+    display: block;
+  }
+
+  .our-assetss-inner-2 {
+    flex-direction: column-reverse;
+  }
+
+  .our-assetss-left {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    text-align: left;
+  }
+
+  .yellow-border {
+    height: 40px;
+    width: 100%;
+    background-color: #dbff26;
+  }
+  .our-assetss-slider-bx:after {
+    display: none;
+  }
+  .our-assetss-slider-bx:hover:after {
+    height: 280px;
+  }
+
+  .our-assetss-slider {
+    position: relative;
+  }
+
+  .our-assetss-slider .owl-dots {
+    position: absolute;
+    bottom: 0;
+    z-index: 999999999;
+  }
+
+  .our-assetss-slider .owl-dot {
+    z-index: 9999999999;
+    width: 8px;
+    height: 8px;
+    color: #fff;
+    background: #fff;
+    border-radius: 20px;
+  }
+
+  .our-assetss-slider .owl-dot span {
+    z-index: 9999999999;
+    width: 8px;
+    height: 8px;
+    color: #fff;
+    background: #fff;
+    border-radius: 20px;
+  }
+
+  .metaboundless-btn {
+    margin: 0;
+  }
+
+  .unleasing-banner h1 {
+    font-size: 17px;
+    padding: 0;
+    bottom: 40px;
+  }
+
+  .any-que h2 {
+    font-size: 40px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 40px;
+  }
+
+  .unleasing-banner h1 span {
+    font-size: 14px;
+  }
+
+  .we-are-league-left {
+    display: none;
+    width: 100vw;
+    min-height: 100%;
+  }
+
+  .we-are-league-left img {
+    max-width: 100vw;
+    height: 100%;
+  }
+
+  .sport-tech-left {
+    display: none;
+    width: 100vw;
+  }
+  .sport-tech-left img {
+    max-width: 100vw;
+    height: 100%;
+  }
+
+  .we-are-league-right {
+    padding: 50px 20px;
+  }
+
+  .we-are-league-right h2 span {
+    font-size: 14px;
+  }
+
+  .we-are-league-right h2 {
+    font-size: 15px;
+  }
+
+  .we-are-league-right a {
+    margin-top: 10px;
+    font-size: 13px;
+    min-width: 150px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+
+  .sport-tech-right {
+    padding: 50px 20px;
+  }
+
+  .sport-tech-right h2 span {
+    font-size: 14px;
+  }
+
+  .sport-tech-right h2 {
+    font-size: 15px;
+  }
+
+  .sport-tech-left {
+    min-height: 100%;
+  }
+
+  .our-assetss-left h2 {
+    font-size: 36px;
+  }
+
+  .our-assetss-left p {
+    font-size: 15px;
+    color: #fff;
+    max-width: 100%;
+  }
+
+  .our-assetss-left {
+    padding: 50px 20px;
+  }
+
+  .our-assetss-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+
+  .our-assetss-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+
+  .our-assetss-slider .owl-nav {
+    top: -40px;
+  }
+
+  .our-assetss-bottom h4 {
+    font-size: 24px;
+    min-height: inherit;
+    padding: 20px 10px;
+    font-family: JupiterMissionRegular;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-assetss-bottom {
+    position: relative;
+    background-color: #fff;
+  }
+
+  .abs-merchanice-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .abs-merchanice-btn a {
+    width: 200px;
+  }
+
+  .merchandice-image {
+    display: block;
+    width: 95%;
+    margin: 0px auto 30px;
+    background-color: #fff;
+  }
+
+  .merchandice-image img {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr {
+    width: 100%;
+  }
+
+  .our-assetss-sliderr p {
+    max-width: 100%;
+  }
+
+  .sliding-text li span {
+    font-size: 24px;
+  }
+
+  .sliding-text {
+    padding: 15px 0 5px;
+  }
+
+  .our-assetss-bottom h4 br {
+    display: contents;
+  }
+
+  .our-milestonee-top h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .our-milestonee-top {
+    flex-direction: column;
+  }
+
+  .our-milestonee-top a {
+    margin-top: 10px;
+    font-size: 13px;
+    min-width: 190px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+
+  .our-milestonee {
+    padding: 50px 20px;
+  }
+
+  .milestones-left h2 {
+    font-size: 70px;
+  }
+
+  .milestones-left h3 {
+    font-size: 20px;
+  }
+
+  .milestones-left p {
+    font-size: 15px;
+  }
+  .milestone-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+  .milestone-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss {
+    padding: 50px 20px;
+  }
+
+  .our-blogss-top h2 {
+    font-size: 18px;
+  }
+
+  .btn-blogss a {
+    margin-top: 30px;
+    font-size: 13px;
+    min-width: 210px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+  .our-blogss-slider-in h2 {
+    font-size: 17px;
+  }
+
+  .btn-blogss {
+    margin-top: -20px;
+  }
+
+  .any-que h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .any-que-btn a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .any-que-btn a.btn-que-bord {
+    font-size: 14px;
+  }
+
+  .any-que {
+    min-height: 280px;
+  }
+
+  .we-offices-left h2 {
+    font-size: 28px;
+  }
+
+  .we-offices {
+    padding: 50px 0;
+  }
+
+  .office-inner.office-inner-1 {
+    flex-direction: column;
+  }
+
+  .office-inner-2 {
+    flex-direction: column;
+  }
+
+  .offices-bx h3 {
+    font-size: 16px;
+    min-width: 160px;
+  }
+
+  .we-offices-right {
+    margin-top: 20px;
+  }
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    max-width: 140px;
+  }
+
+  .footer-text h2 {
+    margin: 0 0 10px;
+  }
+
+  .footer-logo {
+    margin-bottom: 45px;
+  }
+
+  .footer-text li {
+    line-height: 25px;
+  }
+  .footer-bottom {
+    margin-top: 0;
+  }
+  .our-blogss-slider .owl-nav button.owl-prev {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss-slider .owl-nav button.owl-next {
+    width: 50px;
+    height: 40px;
+  }
+  .our-blogss-slider .owl-nav {
+    right: 0;
+    top: -61px;
+  }
+
+  .our-blogss-top {
+    margin-bottom: 30px;
+  }
+  .milstone-slider-in {
+    padding-left: 5px;
+  }
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 540px;
+    background-size: 385px;
+  }
+
+  .our-assetss-slider-bx:hover:before {
+    background-size: 400px;
+    filter: none;
+  }
+
+  .our-assetss-slider .owl-nav {
+    display: none;
+  }
+  .our-assetss-slider-bx:hover .our-asset-in-bx h3 {
+    color: #fff;
+  }
+  .our-assetss-slider-bx:hover .our-asset-in-bx p {
+    color: #fff;
+  }
+
+  .milestone-slider .owl-nav {
+    bottom: -40px;
+  }
+
+  .unlesing-slider-bx-inner {
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .unlesing-slider-bx-inner a {
+    min-width: 150px;
+  }
+
+  .unlesing-slider-bx-5 {
+    background-size: 500px;
+    background: #000 url(../assets/images/bann-slide-5.webp) no-repeat;
+    background-position: top 90px center;
+    background-size: 100%;
+  }
+  .brnad-inn-m-bx h2 {
+    font-size: 14px;
+  }
+
+  .our-brand-lr-slider-bx img,
+  .our-brand-lr-slider-bx,
+  .our-brand-lr-left,
+  .our-brand-lr-right {
+    min-height: 100% !important;
+  }
+
+  .our-brand-lr-right h3 {
+    font-size: 15px;
+  }
+
+  .our-assets-banner .our-assetss-slider-bx {
+    width: 100%;
+  }
+  .our-assetss-left h2 {
+    font-size: 24px;
+    color: #fff;
+    max-width: 100%;
+  }
+
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    min-height: 430px;
+  }
+
+  .our-assetss-slider-bx,
+  .our-assetss-slider-bx:before {
+    background-size: 100%;
+  }
+
+  .our-assetss-sliding .our-assetss-slider-bx,
+  .our-assetss-sliding .our-assetss-slider-bx:before {
+    min-height: 600px;
+  }
+  .our-assetss-slider-bx-3:before,
+  .our-assetss-slider-bx-3:hover:before {
+    background-size: 90%;
+  }
+  .our-assetss-slider-bx-4:before,
+  .our-assetss-slider-bx-4:hover:before {
+    background-size: 80%;
+    background-position: top 86px center;
+  }
+  .our-assetss-slider-bx-5:before,
+  .our-assetss-slider-bx-5:hover:before {
+    background-size: 70%;
+  }
+
+  .our-assetss-slider-bx-6:before,
+  .our-assetss-slider-bx-6:hover:before {
+    background-size: 60%;
+  }
+  .our-assetss-sliding .our-assetss-left h2 {
+    font-size: 20px;
+  }
+
+  .our-assetss-bottom {
+    flex-direction: column;
+  }
+
+  .merchendise-left {
+    width: 100%;
+  }
+
+  .watch-launch {
+    min-height: initial;
+    padding: 40px 20px;
+  }
+
+  .merchendise-left {
+    min-height: auto;
+  }
+
+  .watch-launch p {
+    max-width: 100%;
+  }
+
+  .merchendise-right img {
+    height: auto;
+  }
+
+  .merchendise-right {
+    width: 100%;
+    position: relative;
+    min-height: auto;
+  }
+
+  .our-milestonee {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-content .footer-email-link li {
+    display: flex;
+    margin: 0;
+    width: 40%;
+    text-align: left;
+  }
+
+  .footer-inner {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 50px 10px 0;
+  }
+
+  .footer-last a {
+    font-size: 14px;
+  }
+
+  .merchendise-btn {
+    position: inherit;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    transform: inherit;
+  }
+  .unlesing-slider-bx-2 {
+    background: url(../assets/images/bann-slide-mob-2.webp) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .unlesing-slider-bx-3 {
+    background: url(../assets/images/bann-slide-mob-3.webp) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .unlesing-slider-bx-4 {
+    background: url(../assets/images/bann-slide-mob-4.webp) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .unlesing-slider-bx-5 {
+    background: url(../assets/images/bann-slide-mob-5.webp) no-repeat;
+    background-position: top -35px center;
+    background-size: 100%;
+  }
+  .our-assetss-slider-bx:before {
+    filter: none;
+    -webkit-filter: none;
+    -ms-filter: none;
+    -moz-filter: none;
+  }
+  .unlesing-slider-bx {
+    height: 650px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: top center !important;
+  }
+  .footer-lasts {
+    overflow: hidden;
+  }
+
+  .for-web-s {
+    display: none;
+  }
+  .for-mob-s {
+    display: block;
+  }
+  .footer-bottom > a {
+    display: block;
+  }
+  .footer-bottom li {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer-bottom ul {
+    display: none;
+  }
+  .footer-content .footer-email-link ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-content .footer-email-link li a {
+    text-align: left;
+  }
+  .sports-assets-links img {
+    max-width: 65px;
+  }
+
+  .sports-assets-links {
+    top: 10%;
+    margin-left: 0;
+  }
+
+  .our-assets-tech .content-wrapper .content-1,
+  .our-assets-tech .content-wrapper .content-2 {
+    width: 100%;
+  }
+
+  .our-assets-tech .content-wrapper p {
+    width: 100%;
+  }
+
+  .our-assets-tech .content-wrapper {
+    gap: 2.5rem;
+    flex-direction: column-reverse;
+    padding: 30px 0;
+  }
+
+  /* .our-assets-tech .content-wrapper a {
+    font-size: 13px;
+    min-width: 125px;
+    min-height: 25px;
+    line-height: 30px;
+  } */
+
+  .our-assets-tech .our-assets-ticker .ticker-group .ticker-row span {
+    font-size: 12px;
+
+    margin: 0 12.5px;
+  }
+}

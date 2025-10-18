@@ -1,0 +1,940 @@
+/* Sustainability Hero Section */
+.sustainability-hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.sustainability-hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/sustainabilitybg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.sustainability-hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.sustainability-hero-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 3;
+}
+
+.sustainability-hero-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.sustainability-hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.sustainability-hero-text h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.sustainability-hero-text h1 span {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #DBFF26;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.sustainability-hero-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 991px) {
+  .sustainability-hero-text h1 {
+    font-size: 36px;
+  }
+  
+  .sustainability-hero-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-hero-content {
+    padding: 0 20px;
+  }
+  
+  .sustainability-hero-text h1 {
+  font-size: 28px;
+  }
+  
+  .sustainability-hero-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-hero-text h1 {
+    font-size: 24px;
+  }
+  
+  .sustainability-hero-text h1 br {
+    display: none;
+  }
+}
+
+/* Carbon Neutral Commitment Section */
+.sustainability-carbon-neutral {
+  position: relative;
+  width: 100vw;
+  height: 787px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sustainability-carbon-neutral-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 60px 60px 60px;
+  gap: 60px;
+}
+
+.sustainability-carbon-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.sustainability-carbon-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+  color: #000000;
+  margin: 0 0 30px 0;
+}
+
+.sustainability-carbon-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #000000;
+  margin: 0;
+}
+
+.sustainability-carbon-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sustainability-carbon-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design for Carbon Neutral Section */
+@media screen and (max-width: 991px) {
+  .sustainability-carbon-text h2 {
+    font-size: 36px;
+  }
+  
+  .sustainability-carbon-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-carbon-neutral-content {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 40px;
+  }
+  
+  .sustainability-carbon-text h2 {
+    font-size: 28px;
+  }
+  
+  .sustainability-carbon-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-carbon-text h2 {
+    font-size: 24px;
+  }
+  
+  .sustainability-carbon-text h2 br {
+    display: none;
+  }
+}
+
+/* Sustainability in Sports Technology Section */
+.sustainability-sports-tech {
+  position: relative;
+  width: 100vw;
+  height: 603px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.sustainability-sports-tech-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/our-brands-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.sustainability-sports-tech-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(98deg, rgba(26, 26, 26, 1) 9%, rgba(3, 28, 40, 0) 100%);
+  z-index: 2;
+}
+
+.sustainability-sports-tech-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 3;
+}
+
+.sustainability-sports-tech-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.sustainability-sports-tech-text {
+  max-width: 600px;
+}
+
+.sustainability-sports-tech-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+  color: #FFFFFF;
+  margin: 0 0 30px 0;
+}
+
+.sustainability-sports-tech-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/* Responsive Design for Sports Tech Section */
+@media screen and (max-width: 991px) {
+  .sustainability-sports-tech-text h2 {
+    font-size: 36px;
+  }
+  
+  .sustainability-sports-tech-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-sports-tech-content {
+    padding: 0 20px;
+  }
+  
+  .sustainability-sports-tech-text h2 {
+    font-size: 28px;
+  }
+
+  .sustainability-sports-tech-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-sports-tech-text h2 {
+    font-size: 24px;
+  }
+  
+  .sustainability-sports-tech-text h2 br {
+    display: none;
+  }
+}
+
+/* Mangrove Initiative Section */
+.sustainability-mangrove {
+  position: relative;
+  width: 100vw;
+  height: 603px;
+  overflow: hidden;
+  margin: 0;
+    padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.sustainability-mangrove-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/mangrooveInitiativeBG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.sustainability-mangrove-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+    width: 100%;
+  height: 100%;
+  background: linear-gradient(-89deg, rgba(0, 0, 0, 0.1) 29%, rgba(0, 0, 0, 1) 100%);
+  z-index: 2;
+}
+
+.sustainability-mangrove-texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 3;
+}
+
+.sustainability-mangrove-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.sustainability-mangrove-text {
+  max-width: 600px;
+}
+
+.sustainability-mangrove-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+  color: #FFFFFF;
+  margin: 0 0 30px 0;
+}
+
+
+
+.sustainability-mangrove-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/* Responsive Design for Mangrove Section */
+@media screen and (max-width: 991px) {
+  .sustainability-mangrove-text h2 {
+    font-size: 36px;
+  }
+  
+  .sustainability-mangrove-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-mangrove-content {
+    padding: 0 20px;
+  }
+  
+  .sustainability-mangrove-text h2 {
+    font-size: 28px;
+  }
+  
+  .sustainability-mangrove-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-mangrove-text h2 {
+    font-size: 24px;
+  }
+  
+  .sustainability-mangrove-text h2 br {
+    display: none;
+  }
+}
+
+/* Founder Quote Section */
+.sustainability-founder {
+  position: relative;
+  width: 100vw;
+  height: 787px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: #FFFFFF;
+}
+
+.sustainability-founder-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.sustainability-founder-image {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sustainability-founder-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sustainability-founder-quote {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.sustainability-quote-start {
+  margin-bottom: 20px;
+}
+
+.sustainability-quote-start img {
+  width: 40px;
+  height: auto;
+  transform: rotate(180deg);
+}
+
+.sustainability-quote-text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.175;
+  letter-spacing: -0.1em;
+  color: #000000;
+  margin: 0 0 30px 0;
+}
+
+.sustainability-quote-text span {
+  color: #DBFF26;
+}
+
+.sustainability-quote-end {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sustainability-quote-end img {
+  width: 40px;
+  height: auto;
+}
+
+.sustainability-founder-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.99;
+  letter-spacing: -0.04em;
+  color: #000000;
+  
+  margin: 0;
+}
+
+/* Responsive Design for Founder Section */
+@media screen and (max-width: 991px) {
+  .sustainability-quote-text {
+    font-size: 32px;
+  }
+
+  .sustainability-founder-name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-founder-content {
+    flex-direction: column;
+  }
+  
+  .sustainability-founder-image {
+    height: 50%;
+  }
+  
+  .sustainability-founder-quote {
+    height: 50%;
+    padding: 0 20px;
+  }
+  
+  .sustainability-quote-text {
+    font-size: 24px;
+  }
+  
+  .sustainability-founder-name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-quote-text {
+    font-size: 20px;
+  }
+  
+  .sustainability-founder-name {
+    font-size: 16px;
+  }
+}
+
+/* Green Mission Section */
+.sustainability-green-mission {
+    position: relative;
+  width: 100vw;
+  height: 686px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.sustainability-green-mission-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/tbr-racebird.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+.sustainability-green-mission-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.sustainability-green-mission-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 3;
+}
+
+.sustainability-green-mission-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.sustainability-green-mission-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.sustainability-green-mission-text h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+  color: #FFFFFF;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+}
+
+.sustainability-green-mission-text p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0 0 40px 0;
+}
+
+.sustainability-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.79;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.sustainability-contact-btn:hover {
+  background: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+}
+
+.sustainability-contact-btn img {
+  width: 17px;
+  height: 17px;
+}
+
+/* Responsive Design for Green Mission Section */
+@media screen and (max-width: 991px) {
+  .sustainability-green-mission-text h2 {
+    font-size: 36px;
+  }
+  
+  .sustainability-green-mission-text p {
+    font-size: 18px;
+  }
+  
+  .sustainability-contact-btn {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-green-mission-content {
+    padding: 0 20px;
+  }
+  
+  .sustainability-green-mission-text h2 {
+    font-size: 28px;
+  }
+  
+  .sustainability-green-mission-text p {
+    font-size: 16px;
+  }
+  
+  .sustainability-contact-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-green-mission-text h2 {
+    font-size: 24px;
+  }
+  
+  .sustainability-green-mission-text h2 br {
+    display: none;
+  }
+  
+  .sustainability-contact-btn {
+    font-size: 16px;
+  }
+}
+
+/* Footer Section */
+.sustainability-footer {
+  position: relative;
+  width: 100vw;
+  background: #FFFFFF;
+  margin: 0;
+    padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.sustainability-footer-content {
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 60px;
+}
+
+.sustainability-newsletter {
+  flex: 1;
+  max-width: 400px;
+}
+
+.sustainability-newsletter h3 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 20px 0;
+}
+
+.sustainability-newsletter p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+.sustainability-newsletter-form {
+    display: flex;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.sustainability-email-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.sustainability-email-input::placeholder {
+  color: #000000;
+}
+
+.sustainability-signup-btn {
+  padding: 12px 24px;
+  background: #000000;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sustainability-signup-btn:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.sustainability-disclaimer {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+}
+
+.sustainability-explore {
+  flex: 1;
+  max-width: 200px;
+}
+
+.sustainability-explore h3 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 20px 0;
+}
+
+.sustainability-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sustainability-footer-links li {
+  margin-bottom: 8px;
+}
+
+.sustainability-footer-links a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sustainability-footer-links a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design for Footer */
+@media screen and (max-width: 767px) {
+  .sustainability-footer-content {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+  
+  .sustainability-newsletter,
+  .sustainability-explore {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sustainability-footer-content {
+    padding: 30px 20px;
+  }
+  
+  .sustainability-newsletter-form {
+    flex-direction: column;
+  }
+  
+  .sustainability-signup-btn {
+    margin-top: 10px;
+  }
+}

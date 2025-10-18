@@ -1,0 +1,199 @@
+body {
+  background: #faf7f7;
+}
+header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.11166185224089631) 81%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.gallery-banner {
+  background: url(../assets/images/gallery-banner.webp) no-repeat;
+  min-height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.gallery-banner h1 {
+  font-size: 52px;
+  color: #fff;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.gallery-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  align-items: center;
+  margin: 70px 0;
+  overflow: hidden;
+}
+.gallery-blocks-left {
+  width: 35%;
+  padding-left: 60px;
+}
+.gallery-blocks-right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  position: relative;
+  left: 0;
+}
+.gallery-blocks-left h2 {
+  font-size: 44px;
+  color: #000;
+  text-transform: uppercase;
+}
+.gallery-blocks-left p {
+  font-size: 16px;
+  font-family: "Inter";
+  color: rgb(0 0 0 / 60%);
+}
+.gallery-blocks-left a {
+  letter-spacing: 1px;
+  background-color: #061ae2;
+  color: #fff;
+  min-width: 150px;
+  min-height: 38px;
+  line-height: 38px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.gallery-bx-all {
+  display: flex;
+  gap: 10px;
+}
+.gallery-bx-all img {
+  margin: 5px 0;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+}
+.gallery-blocks:hover img {
+  transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  -moz-transform: scale(0.99);
+}
+.gallery-bx-all img.g-ima-1 {
+  max-width: 475px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-2 {
+  max-width: 305px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-3 {
+  max-width: 305px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-4 {
+  max-width: 475px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-5 {
+  max-width: 305;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-6 {
+  max-width: 350px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-7 {
+  max-width: 350px;
+  height: 350px;
+}
+.gallery-bx-all img.g-ima-8 {
+  max-width: 350px;
+  height: 350px;
+}
+
+.gallery-block-middle {
+  margin-left: 200px;
+}
+.gallery-blocks:nth-child(odd) {
+  border-radius: 50px 0 0 50px;
+}
+.gallery-blocks:nth-child(even) {
+  border-radius: 0 50px 50px 0;
+}
+.gallery-blocks:nth-child(odd) .gallery-blocks-left {
+  display: flex;
+  order: 1;
+  align-items: start;
+  flex-direction: column;
+}
+.gallery-blocks:nth-child(odd) .gallery-blocks-right {
+  display: flex;
+  order: 2;
+  align-items: start;
+  flex-direction: column;
+  left: 0;
+}
+.gallery-blocks:nth-child(even) .gallery-blocks-left {
+  display: flex;
+  order: 2;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 60px;
+  position: relative;
+  z-index: 1;
+}
+.gallery-blocks:nth-child(even) .gallery-blocks-right {
+  display: flex;
+  order: 1;
+  align-items: start;
+  flex-direction: column;
+  position: relative;
+  left: -260px;
+}
+.gallery-blocks:hover:nth-child(even) .gallery-blocks-right {
+  left: -280px;
+}
+.gallery-blocks:hover:nth-child(odd) .gallery-blocks-right {
+  left: 20px;
+}
+.gallery-blocks:nth-child(even) .gallery-blocks-right .gallery-block-middle {
+  margin-left: 0;
+}
+
+.slide-all {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  -webkit-scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
+  -moz-scroll-snap-type: y mandatory;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+  -webkit-scroll-snap-align: center;
+  -ms-scroll-snap-align: center;
+  -moz-scroll-snap-align: center;
+}
+.add-in-mobile {
+  display: none;
+}
