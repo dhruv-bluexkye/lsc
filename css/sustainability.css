@@ -151,15 +151,16 @@
   z-index: 10;
   height: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  padding: 0 60px 60px 60px;
+  padding: 60px;
   gap: 60px;
 }
 
 .sustainability-carbon-text {
   flex: 1;
   max-width: 600px;
+  padding-top: 80px;
 }
 
 .sustainability-carbon-text h2 {
@@ -169,7 +170,7 @@
   line-height: 0.98;
   letter-spacing: -0.08em;
   color: #000000;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 
 .sustainability-carbon-text p {
@@ -208,8 +209,14 @@
 @media screen and (max-width: 767px) {
   .sustainability-carbon-neutral-content {
     flex-direction: column;
-    padding: 0 20px;
-    gap: 40px;
+    padding: 40px 20px;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .sustainability-carbon-text {
+    text-align: center;
+    max-width: 100%;
   }
   
   .sustainability-carbon-text h2 {

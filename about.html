@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/new-design.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/about.css">
   </head>
   <body>
@@ -21,16 +24,29 @@
         <div class="header-container">
           <div class="logo-section">
             <img src="assets/images/kivc-white-logo.svg" alt="LSC Logo" class="logo" />
-            </div>
-          <nav class="navigation-pill">
+          </div>
+          <nav class="navigation-pill desktop-nav">
             <ul class="nav-links">
               <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="about.html" class="nav-link active">About Us</a></li>
+              <li><a href="about.html" class="nav-link">About Us</a></li>
               <li><a href="#" class="nav-link disabled">Press & Media</a></li>
               <li><a href="sustainability.html" class="nav-link">Sustainability</a></li>
-                </ul>
+            </ul>
           </nav>
+          <button class="hamburger-menu" id="hamburger-menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
         </div>
+        <nav class="mobile-nav" id="mobile-nav">
+          <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+            <li><a href="#" class="mobile-nav-link disabled">Press & Media</a></li>
+            <li><a href="sustainability.html" class="mobile-nav-link">Sustainability</a></li>
+          </ul>
+        </nav>
       </header>
 
     <!-- Hero Section -->
@@ -208,5 +224,7 @@
       
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/nav.js"></script>
   </body>
 </html>
