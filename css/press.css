@@ -4,26 +4,170 @@
   height: 100%;
 }
 
-#articles .heading {
+/* Compact Press Hero */
+.press-hero {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.press-hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.press-hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 218, 1) 0%, rgba(0, 0, 255, 1) 100%);
+}
+.press-hero-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/texture-56586a.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  mix-blend-mode: lighten;
+}
+.press-hero-content {
+  position: relative;
+  z-index: 2;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  padding: 120px 0 30px 0;
+  height: 100%;
+  padding-bottom: 24px;
+}
+.press-hero-content h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.9791666666666666em;
+  letter-spacing: -0.08333333333333332em;
+  color: #FFFFFF;
+  margin: 0;
 }
 
-#articles .heading h1 {
-  text-align: center;
-  font-family: Hanson-Bold;
-  font-style: normal;
+@media (max-width: 768px) {
+  .press-hero { height: 200px; }
+  .press-hero-content h1 { font-size: 36px; }
+}
+
+/* Featured Article */
+.featured-article {
+  padding: 60px 100px 40px;
+  background-color: #FFFFFF;
+}
+
+.featured-article a {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.featured-article a:hover {
+  transform: translateY(-2px);
+}
+
+.featured-thumbnail {
+  flex: 1;
+  max-width: 50%;
+}
+
+.featured-thumbnail img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.featured-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.featured-tags {
+  margin-bottom: 16px;
+}
+
+.featured-tags span {
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
-  font-size: 72px;
-  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  color: #000000;
+  border: 1px solid #00000026;
+  border-radius: 15px;
+  padding: 6px 16px;
+  margin-right: 8px;
+}
+
+.featured-title h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.1em;
+  letter-spacing: -0.05em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.featured-date p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  color: #666666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .featured-article {
+    padding: 40px 20px 20px;
+  }
+  
+  .featured-article a {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .featured-thumbnail {
+    max-width: 100%;
+  }
+  
+  .featured-thumbnail img {
+    height: 250px;
+  }
+  
+  .featured-content {
+    padding-left: 0;
+  }
+  
+  .featured-title h2 {
+    font-size: 28px;
+  }
 }
 
 .blog {
-  background-color: #fff;
-  padding: 100px;
+  background-color: #FFFFFF;
+  padding: 0 100px 100px;
 }
 
 .blog .col-sm {
@@ -39,10 +183,11 @@
 }
 
 .blog-tags span {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
   color: #000000;
   border: 1px solid #00000026;
   border-radius: 15px;
@@ -50,12 +195,12 @@
 }
 
 .blog-title h3 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95em;
+  letter-spacing: -0.05em;
   color: #000000;
-  line-height: 23px;
   transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -66,11 +211,12 @@
 }
 
 .blog-date {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
-  font-size: 12px;
-  color: #000000;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  color: #666666;
 }
 
 .blog-tags span.brand {
