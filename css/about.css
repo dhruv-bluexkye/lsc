@@ -339,6 +339,64 @@
   }
 }
 
+.about-team-footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-team-footer p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.05em;
+  color: #000000;
+  margin: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-team-link {
+  color: #0000FF;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: all 0.3s ease;
+}
+
+.about-team-link:hover {
+  color: #0000AA;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .about-team-footer {
+    margin-top: 40px;
+  }
+  
+  .about-team-footer p {
+    font-size: 16px;
+  }
+  
+  .about-team-link {
+    text-underline-offset: 1.5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-team-footer {
+    margin-top: 30px;
+  }
+  
+  .about-team-footer p {
+    font-size: 15px;
+  }
+  
+  .about-team-link {
+    text-underline-offset: 1px;
+  }
+}
+
 /* Our Mission Section */
 .about-mission {
   position: relative;

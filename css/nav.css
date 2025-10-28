@@ -208,12 +208,14 @@ html, body {
     .main-header { padding: 20px; }
     .desktop-nav { display: none; }
     .hamburger-menu { display: flex; }
-    .logo { width: 70px; height: 38px; }
+    .logo { width: 80px; height: 44px; }
+    .logo-section { margin-top: 8px; margin-left: 8px; }
 }
 
 @media (max-width: 480px) {
     .main-header { padding: 15px; }
-    .logo { width: 60px; height: 33px; }
+    .logo { width: 75px; height: 41px; }
+    .logo-section { margin-top: 10px; margin-left: 10px; }
     .hamburger-menu { 
         width: 42px; 
         height: 42px; 
