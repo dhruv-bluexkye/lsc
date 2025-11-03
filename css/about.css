@@ -294,9 +294,66 @@
   text-decoration: none;
 }
 
+/* Operating Partners & Advisors Section */
+.about-partners {
+  position: relative;
+  width: 100vw;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.about-partners-content {
+  padding: 80px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-partners-content h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.9791666666666666em;
+  letter-spacing: -0.08333333333333332em;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.about-partners-description {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.95em;
+  letter-spacing: -0.05em;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 60px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* Responsive Design for Team Section */
 @media screen and (max-width: 1024px) {
   .about-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .about-partners-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -322,6 +379,24 @@
   .about-team-card {
     max-width: 350px;
     flex-direction: row;
+  }
+  
+  .about-partners-content {
+    padding: 60px 30px;
+  }
+  
+  .about-partners-content h2 {
+    font-size: 36px;
+  }
+  
+  .about-partners-description {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  
+  .about-partners-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
