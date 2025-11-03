@@ -448,6 +448,32 @@
   height: 17px;
 }
 
+.coming-soon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 52px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  background: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.7916666666666666em;
+  letter-spacing: -0.04166666666666666em;
+  text-transform: uppercase;
+  pointer-events: none;
+  cursor: default;
+}
+
+.coming-soon-btn .lock-icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(1);
+}
+
 /* TBR Racebird Section */
 .tbr-racebird-section {
   position: relative;
@@ -843,6 +869,8 @@
   
   .card-content {
     padding: 100px 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   .core-focus-content {

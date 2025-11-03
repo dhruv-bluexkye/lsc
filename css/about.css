@@ -332,10 +332,9 @@
   letter-spacing: -0.05em;
   color: #000000;
   text-align: center;
-  margin: 0 0 60px 0;
+  margin: 60px auto 60px auto;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 20px;
 }
 
 .about-partners-grid {
